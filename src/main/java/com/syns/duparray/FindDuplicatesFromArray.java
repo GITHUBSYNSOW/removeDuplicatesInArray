@@ -26,6 +26,7 @@ public class FindDuplicatesFromArray {
         System.out.println(Arrays.toString(origArray));
 
         Integer[] tempArray=removeDuplicatesWithOutCollections(origArray);
+
         System.out.println(Arrays.toString(tempArray));
 
         System.out.println("----------------------------------------");
