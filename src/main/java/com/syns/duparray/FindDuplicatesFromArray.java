@@ -25,14 +25,14 @@ public class FindDuplicatesFromArray {
         Integer[] origArray = new Integer[] { 1, 1, 2, 3, 3, 3, 4, 5, 6, 6, 6, 7, 8 };
         System.out.println(Arrays.toString(origArray));
 
-        Integer[] tempArray=findDuplicatesWithOutCollections(origArray);
+        Integer[] tempArray=removeDuplicatesWithOutCollections(origArray);
         System.out.println(Arrays.toString(tempArray));
 
         System.out.println("----------------------------------------");
 
     }
 
-    private static Integer[] findDuplicatesWithOutCollections(Integer[] arrays)
+    private static Integer[] removeDuplicatesWithOutCollections(Integer[] arrays)
 
     {
 
